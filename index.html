@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal-portfolio </title>
+    <link rel ="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3cad6c5086.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header" >
+    <div class="container">
+        <nav>
+            <img src="images/images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services </a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact </a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+        <p>Hi There,</p>
+        <h1>M <span>POOJITHA</span><br> I Am into Django|</h1>
+    </div>
+    </div>
+</div>
+
+<!----------------------------------------About ME-----------------------------------------------------------------------------> 
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="images/images/user.png.png">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1><br>
+            <p>Hello! I'm POOJITHA,an aspiring python backend developer with a strong passion for coding and fresh perpective on web-develpment.Recently,I have successfully completed an intensive python backend course where i gained a solid foundation in python programming and learned how to build web-applicatons and projects.
+                Althrogh i may not have professional experience yet,I'm driven by my curiosity and eagerness to learn and grow in the field of backend development.During my course,i developed a strong foundation through the concepts of python programming. 
+                I'm eager to contribute my enthusiam,determination and growing skils to a collaborative team (or) project.If you have any opportunities (or) would like to connect i would be thrilled to hear from you.
+                "Let's create and learn something exceptional and grow together!!!!! ".</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python libraries</span><br>like Numpy,Pandas,Matplotlib</li>
+                        <li><span>web-develpment</span><br>web-Scraping</li>
+                        <li><span>Project-develpment</span><br>like e-commerce,Django</li>
+                        <li><span>Looking for</span><br>I'm actively seeking opportunities to collabrate and gainpratical experience in the industry<br><br>I'm open to internships (or) ant chances to work alongside experienced proffessionals to further develop my skills</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>E-Commerce</span><br>on Hospital Management using Django</li>
+                        <li><span>Data Analysis</span><br>on IMDB Dataset using jupeter-notebook</li>
+                        <li><span>Bill-Generation</span><br>on Super-Market</li>
+                        <li><span>Ticket-Rerservation</span><br>on RailWay-booking</li>
+                        <li><span>Me at github</span><br><a href ="#">https://github.com/MuddamPoojithaa</li></a>
+                        <li><span>Me at Linkeid</span><br><a href="#">https://www.linkedin.com/in/muddam-poojitha-05a3a6268/</li></a>
+
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Tech [Pursuing]</span><br>St.mary's Engineering college from Deshmuki</li>
+                        <li><span>School [2016-2017]</span><br>Bethel Sennitt High School from Hyderabad with 95%</li>
+                        <li><span>Intermediate [2017-2019]</span><br>Sri Chaitanya Junior College from Hyderabad with 95%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------Services------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Python is a popular choice for web development 
+                among beginners,professionals alike webdesign with python 
+                typically using a web framework such as Djanjo.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>python programming language is a versatile 
+                language known for its simplicity and readability,
+                making it an excellent choice for developing various
+                types of applications</p>
+                 <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file"></i>
+                    <h2>Web scrapping</h2>
+                    <p>Extrating data from websites by parsing and and analyzing
+                     the HTML or XML documents.it is a valuable skill for gathering
+                    information,research,and automating tasks </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------portfolio-------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-List">
+                <div class="work">
+                    <img src="images/images/work-1.png">
+                    <div class="layer">
+                        <h3>Hospital Management App</h3>
+                        <p>It is a software application designed to Streamline and automate various administrations to improve patient create
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="images/images/work-2.png">
+                    <div class="layer">
+                        <h3>E-Commerce Bike-Store</h3>
+                        <p>It is an online platform where customers can browse,select and purchase bicycles and related products
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/images/work-3.png">
+                    <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>It allows users to browse,purchase their shopping activities using a smartphone or tabs.
+                        Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------------------Contact--------------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>poojitha43@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91 9014331089</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="images/images/my-cv.pdf"download class="btn btn2">Download Cv <i class="fa-sharp fa-solid fa-circle-down"></i></a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>@Copyright Poojitha.All Rights Reserved <i class="fa-solid fa-heart"></i> by Tutorials</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+     }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwGZvMQiR5Dms9lRD3GRXYDbk9WKP1IBq0bY4BBPQhXE3743bLA4qjKCzQ-8J6r1WTALQ/exec'  
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+        },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
